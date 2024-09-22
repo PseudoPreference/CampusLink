@@ -37,9 +37,9 @@ export default function LandingPage() {
                   Revolutionize your educational experience with AI-driven insights, seamless communication, and personalized learning.
                 </p>
               </div>
-              
+
               <div className="space-x-4">
-                <Link href="src\components\admin">
+                <Link href="/student">
                   <Button className="bg-white text-blue-600 hover:bg-gray-100">Get Started</Button>
                 </Link>
                 <Link href="/admin">
