@@ -42,7 +42,7 @@ export default function LandingPage() {
                 <Link href="/student">
                   <Button className="bg-white text-blue-600 hover:bg-gray-100">Get Started</Button>
                 </Link>
-                <Link href="/admin">
+                <Link href="#">
                   <Button variant="outline" className="text-white border-white hover:bg-white/10">Learn More</Button>
                 </Link>
               </div>

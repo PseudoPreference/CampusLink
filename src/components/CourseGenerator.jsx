@@ -7,22 +7,7 @@ import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, D
 import { Badge } from "@/components/ui/badge"
 import { Loader2, BookOpen, ThumbsUp, ThumbsDown } from "lucide-react"
 
-// type Course = {
-//     id: number
-//     code: string
-//     name: string
-//     description: string
-//     credits: number
-//     prerequisite?: string
-//     recommendation: string
-// }
 
-// type Student = {
-//     id: number
-//     name: string
-//     major: string
-//     gpa: number
-// }
 
 export default function CourseGenerator() {
     const [students, setStudents] = React.useState([
