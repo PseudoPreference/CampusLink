@@ -7,7 +7,7 @@ const Contacts = () => {
   return (
     <>
       <header className="px-4 lg:px-6 h-14 flex items-center">
-        <Link className="flex items-center justify-center" href="#">
+        <Link className="flex items-center justify-center" href="/page.js">
           <BookOpen className="h-6 w-6" />
           <span className="ml-2 text-lg font-bold">Campus Link</span>
         </Link>
@@ -20,6 +20,9 @@ const Contacts = () => {
           </Link>
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="/contact">
             Contact
+          </Link>
+          <Link className="text-sm font-medium hover:underline underline-offset-4" href="/communities_">
+            Communities
           </Link>
         </nav>
       </header>

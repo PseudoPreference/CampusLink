@@ -11,23 +11,26 @@ const LearnMore = () => {
   return (
     <>
       <body className="">
-        <header className="px-4 lg:px-6 h-14 flex items-center">
-          <Link className="flex items-center justify-center" href="#">
-            <BookOpen className="h-6 w-6" />
-            <span className="ml-2 text-lg font-bold">Campus Link</span>
+      <header className="px-4 lg:px-6 h-14 flex items-center">
+        <Link className="flex items-center justify-center" href="/page.js">
+          <BookOpen className="h-6 w-6" />
+          <span className="ml-2 text-lg font-bold">Campus Link</span>
+        </Link>
+        <nav className="ml-auto flex gap-4 sm:gap-6">
+          <Link className="text-sm font-medium hover:underline underline-offset-4" href="/features">
+            Features
           </Link>
-          <nav className="ml-auto flex gap-4 sm:gap-6">
-            <Link className="text-sm font-medium hover:underline underline-offset-4" href="/features">
-              Features
-            </Link>
-            <Link className="text-sm font-medium hover:underline underline-offset-4" href="/learn_more">
-              About
-            </Link>
-            <Link className="text-sm font-medium hover:underline underline-offset-4" href="/contact">
-              Contact
-            </Link>
-          </nav>
-        </header>
+          <Link className="text-sm font-medium hover:underline underline-offset-4" href="/learn_more">
+            About
+          </Link>
+          <Link className="text-sm font-medium hover:underline underline-offset-4" href="/contact">
+            Contact
+          </Link>
+          <Link className="text-sm font-medium hover:underline underline-offset-4" href="/communities_">
+            Communities
+          </Link>
+        </nav>
+      </header>
 
         <div className="container px-4 py-8 w-full h-full">
           <h1 className="text-3xl font-bold text-center mb-8">Learn More About CampusLink</h1>
