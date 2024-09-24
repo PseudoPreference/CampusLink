@@ -17,10 +17,10 @@ export default function LandingPage() {
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
             Features
           </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+          <Link className="text-sm font-medium hover:underline underline-offset-4" href="/learn_more">
             About
           </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+          <Link className="text-sm font-medium hover:underline underline-offset-4" href="/contact">
             Contact
           </Link>
         </nav>
@@ -42,7 +42,7 @@ export default function LandingPage() {
                 <Link href="/student">
                   <Button className="bg-white text-blue-600 hover:bg-gray-100">Get Started</Button>
                 </Link>
-                <Link href="#">
+                <Link href="/learn_more">
                   <Button variant="outline" className="text-white border-white hover:bg-white/10">Learn More</Button>
                 </Link>
               </div>
@@ -58,6 +58,7 @@ export default function LandingPage() {
                   <Users className="h-12 w-12 text-blue-500" />
                   <h3 className="text-xl font-bold text-gray-700">Student Management</h3>
                   <p className="text-gray-500">Effortlessly manage student profiles, grades, and attendance.</p>
+
                 </CardContent>
               </Card>
               <Card>
