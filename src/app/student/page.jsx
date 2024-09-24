@@ -19,19 +19,19 @@ export default function StudentDashboard() {
                     </Link>
                 </div>
                 <nav className="flex-1 p-4 space-y-2">
-                    <Link href="/noticeboard" className="flex items-center space-x-2 p-2 hover:bg-gray-100 rounded-md">
+                    <Link href="/noticeboard" className="flex items-center space-x-2 p-2 hover:bg-black rounded-md">
                         <Bell className="h-5 w-5" />
                         <span>Notice Board</span>
                     </Link>
-                    <Link href="/group" className="flex items-center space-x-2 p-2 hover:bg-gray-100 rounded-md">
+                    <Link href="/group" className="flex items-center space-x-2 p-2 hover:bg-black  rounded-md">
                         <Users className="h-5 w-5" />
                         <span>Groups</span>
                     </Link>
-                    <Link href="/grades" className="flex items-center space-x-2 p-2 hover:bg-gray-100 rounded-md">
+                    <Link href="/grades" className="flex items-center space-x-2 p-2 hover:bg-black  rounded-md">
                         <GraduationCap className="h-5 w-5" />
                         <span>Grades</span>
                     </Link>
-                    <Link href="/virtualmeeting" className="flex items-center space-x-2 p-2 hover:bg-gray-100 rounded-md">
+                    <Link href="/virtualmeeting" className="flex items-center space-x-2 p-2 hover:bg-black  rounded-md">
                         <Video className="h-5 w-5" />
                         <span>Virtual Meeting Room</span>
                     </Link>
